@@ -1,0 +1,15 @@
+
+.recipeStyle{
+  border-radius: 10px;
+  margin: 20px;
+  padding: .5em;
+  align-items: center;
+  min-width: 40%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-column-gap: 4em;
+  grid-row-gap: 4em;
+  grid-auto-flow: row;
+}
+
