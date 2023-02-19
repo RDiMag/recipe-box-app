@@ -26,6 +26,12 @@
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   font-weight: 600;
   color: black;
+  display: flex;
+  flex-direction: row; 
+}
+
+.topnav, span {
+  padding: .5em;
 }
 
 .mainDiv{
@@ -56,4 +62,32 @@
 
 .search-button{
   margin: .5em;
+}
+
+
+.bgImage{
+  background-image: url('./images/pasta.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formContainer {
+  padding: 1em;
+}
+
+.loginForm{
+  padding: 1em;
+  backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.link {
+  color: black;
+  font-size: 1.15em;
 }
