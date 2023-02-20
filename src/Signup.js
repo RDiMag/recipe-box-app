@@ -1,13 +1,25 @@
 import { Form } from 'react-bootstrap';
 
-const Login = () => {
+const Signup = () => {
   return (
     <div className='App'>
 
       <div className="bgImage">
         <div className="formContainer">
         <Form className="loginForm">
-            <h1>Sign In</h1>
+          <h1>Sign Up</h1>
+            <div className="mb-3">
+              <label>First name</label>
+              <input
+                type="text"
+                className="form-control"
+                placeholder="First name"
+              />
+            </div>
+            <div className="mb-3">
+              <label>Last name</label>
+              <input type="text" className="form-control" placeholder="Last name" />
+            </div>
             <div className="mb-3">
               <label>Email address</label>
               <input
@@ -24,28 +36,13 @@ const Login = () => {
                 placeholder="Enter password"
               />
             </div>
-            <div className="mb-3">
-              <div className="custom-control custom-checkbox">
-                <input
-                  type="checkbox"
-                  className="custom-control-input"
-                  id="customCheck1"
-                />
-                <label className="custom-control-label" htmlFor="customCheck1">
-                  Remember me
-                </label>
-              </div>
-            </div>
             <div className="d-grid">
               <button type="submit" className="btn btn-primary">
                 Submit
               </button>
             </div>
             <p className="forgot-password text-right">
-              Forgot <a href="#">password?</a>
-            </p>
-            <p className="forgot-password text-right">
-              <a href="/signup">Sign Up</a>
+              Already registered? <a href="/login">Login</a>
             </p>
           </Form>
         </div>
@@ -56,4 +53,4 @@ const Login = () => {
   )
 };
 
-export default Login;
+export default Signup;
