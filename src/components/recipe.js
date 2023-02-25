@@ -1,5 +1,4 @@
 import React from 'react'
-// import './recipestyle.css'
 import { Card } from 'react-bootstrap';
 
 const Recipe = ({ title, image, source, url }) => {

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import './recipestyle.css';
-import Recipe from './recipe.js';
+import '../styles/recipestyle.css';
+import Recipe from '../components/recipe.js';
 import axios from 'axios';
-import './App.css';
+import '../styles/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
-import hero from './images/hero.jpg';
+import hero from '../images/hero.jpg';
 
 const Home = () => {
   const [recipes, setRecipes] = useState([])
@@ -36,8 +36,6 @@ const Home = () => {
 
   return (
     <div className="App">
-      
-      {/* <NavbarBasic /> */}
 
       <div className="mainDiv" style={{ backgroundImage:`url(${hero})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",
     }}>
