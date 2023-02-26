@@ -36,9 +36,12 @@ const Home = () => {
 
   return (
     <div className="App">
+      {/* <div className="App-header">
+        <img src={logo} alt="Logo" className="logo" />
+      </div> */}
 
       <div className="mainDiv" style={{ backgroundImage:`url(${hero})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",
-    }}>
+      }}>
        <div className="heroText">
         <h1>Enter an ingredient.</h1>
         <h2>Get recipes.</h2>
@@ -55,20 +58,23 @@ const Home = () => {
         </div> 
       </div>
 
-      <div className="recipeStyle">
+      <div className="gridContainer">
+        <div className="recipeStyle">
         {recipes.map((recipe) => (
           <Recipe 
-          key={recipe.recipe.uri}
-          title={recipe.recipe.label}
-          image={recipe.recipe.image}
-          source={recipe.recipe.source}
-          url={recipe.recipe.url}
-           />
-        ))}
+            key={recipe.recipe.uri}
+            title={recipe.recipe.label}
+            image={recipe.recipe.image}
+            source={recipe.recipe.source}
+            url={recipe.recipe.url}
+            />
+          ))}
       </div>
-
-      <div id="edamam-badge" data-color="white"></div>
-    </div>
+      </div>
+      
+          
+    <div id="edamam-badge" data-color="white"></div>
+  </div>
   )
 }
 
