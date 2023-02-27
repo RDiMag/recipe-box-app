@@ -5,27 +5,8 @@
   background: rgb(252,252,252);
 }
 
-.App-header {
-  background-color: #83f38e;
-  height: 15vh;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 *{
   box-sizing: border-box;
-}
-
-.topnav{
-  background-color: #8ff153d2;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-  font-weight: 600;
-  color: black;
-  display: flex;
-  flex-direction: row; 
 }
 
 .topnav, span {
@@ -60,16 +41,6 @@
 
 .search-button{
   margin: .5em;
-}
-
-
-.bgImage{
-  background-image: url('../images/pasta.jpg');
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .link {
