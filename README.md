@@ -4,7 +4,7 @@ This project is a quick and dirty React app that uses the Edamam API to serve up
 
 The cards include a label and an external link to the recipe. Search any ingredient and get a batch of recipes to explore!
 
-It is hosted on Cyclic. I used some minimal React-Bootstrap elements for styling, but most of the styling is my own.
+I used some minimal React-Bootstrap elements for styling, but most of the styling is my own.
 
 How to run this repo:
 Fork the repo. Run:

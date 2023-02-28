@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "main": "server.js",
   "type": "module",
+  "proxy":"http://localhost:8080",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -14,6 +15,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
+    "gh-pages": "^5.0.0",
     "mongodb": "^5.0.1",
     "nodemon": "^2.0.20",
     "react": "^18.2.0",
@@ -23,7 +25,7 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage" : "https://RDiMag.github.io/recipe-box-app",
+  "homepage": "https://RDiMag.github.io/recipe-box-app",
   "scripts": {
     "start": "set PORT=3000 && react-scripts start",
     "build": "react-scripts build",
