@@ -18,7 +18,7 @@ const Home = () => {
   
   const getRecipes = async () => {
     const response = await axios.get(
-      `http://localhost:5000/recipes/${query}`
+      `https://rdimag.github.io/recipe-box-app/recipes/${query}`
     )
     console.log(response.data)
     setRecipes(response.data)
