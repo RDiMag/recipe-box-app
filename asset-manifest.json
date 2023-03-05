@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/recipe-box-app/static/css/main.1c20dd65.css",
-    "main.js": "/recipe-box-app/static/js/main.570b73c5.js",
+    "main.js": "/recipe-box-app/static/js/main.6a6c7f2d.js",
     "static/js/787.588d80ba.chunk.js": "/recipe-box-app/static/js/787.588d80ba.chunk.js",
     "static/media/hero.jpg": "/recipe-box-app/static/media/hero.c63b5fdbf36061c0c4ab.jpg",
     "index.html": "/recipe-box-app/index.html",
     "main.1c20dd65.css.map": "/recipe-box-app/static/css/main.1c20dd65.css.map",
-    "main.570b73c5.js.map": "/recipe-box-app/static/js/main.570b73c5.js.map",
+    "main.6a6c7f2d.js.map": "/recipe-box-app/static/js/main.6a6c7f2d.js.map",
     "787.588d80ba.chunk.js.map": "/recipe-box-app/static/js/787.588d80ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c20dd65.css",
-    "static/js/main.570b73c5.js"
+    "static/js/main.6a6c7f2d.js"
   ]
 }
