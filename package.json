@@ -22,7 +22,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0"
   },
-  "homepage": "https://RDiMag.github.io/recipe-box-app",
+  "homepage": "https://recipe-boxes.netlify.app/",
   "scripts": {
     "predeploy": "npm run build",
     "start": "set PORT=3000 && react-scripts start",
