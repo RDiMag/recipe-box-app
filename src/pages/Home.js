@@ -18,7 +18,7 @@ const Home = () => {
   
   const getRecipes = async () => {
     const response = await axios.get(
-      `https://recipe-boxes.netlify.app/recipes/${query}`
+      `https://recipe-box-nmgo.onrender.com/recipes/${query}`
     )
     console.log(response.data)
     setRecipes(response.data)
