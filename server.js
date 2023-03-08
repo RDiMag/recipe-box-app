@@ -8,7 +8,7 @@ const app = express()
 const PORT = process.env.PORT || 3000
 
 app.use(cors())
-app.use(express.static('public'))
+app.use(express.static(process.env.PUBLIC_DIR))
 app.use(express.urlencoded({ extended: true}))
 app.use(express.json())
 
