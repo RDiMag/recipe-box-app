@@ -19,7 +19,7 @@ const Home = () => {
   const getRecipes = async () => {
     const response = await axios.get(
       // `https://recipe-box-nmgo.onrender.com/recipes/${query}` || 
-      `http://localhost:3000/recipes/${query}`
+      `http://localhost:5000/recipes/${query}`
     )
     console.log(response.data)
     setRecipes(response.data)
