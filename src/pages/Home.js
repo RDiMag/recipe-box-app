@@ -18,9 +18,9 @@ const Home = () => {
   
   const getRecipes = async () => {
     const response = await axios.get(
-      // `https://recipe-box-nmgo.onrender.com/recipes/${query}` || 
-      `http://localhost:5000/recipes/${query}`
+      `/recipes/${query}` 
     )
+    //relative URL which will add this to localhost or render site url.
     console.log(response.data)
     setRecipes(response.data)
   }

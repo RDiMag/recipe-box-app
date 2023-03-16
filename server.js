@@ -6,9 +6,11 @@ import "dotenv/config"
 
 const app = express()
 const PORT = process.env.PORT || 4000
+const PUBLIC_DIR = process.env.PUBLIC_DIR || 'build'
+//this defines it even if someone does not have env var set up
 
 app.use(cors())
-app.use(express.static(process.env.PUBLIC_DIR))
+app.use(express.static(PUBLIC_DIR))
 app.use(express.urlencoded({ extended: true}))
 app.use(express.json())
 
