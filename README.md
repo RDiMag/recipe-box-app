@@ -4,7 +4,7 @@ This project is a quick and dirty React app that uses the Edamam API to serve up
 
 The cards include a label and an external link to the recipe. Search any ingredient and get a batch of recipes to explore!
 
-I used some minimal React-Bootstrap elements for styling, but most of the styling is my own.
+I used some minimal React-Bootstrap elements for styling, but most of the styling is my own. The deployed app is hosted on Render.
 
 How to run this repo:
 Fork the repo. Run:
@@ -24,7 +24,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
 
 The page will reload when you make changes.
 You may also see any lint errors in the console.
