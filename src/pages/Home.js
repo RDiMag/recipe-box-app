@@ -10,7 +10,7 @@ import hero from '../images/hero.jpg';
 const Home = () => {
   const [recipes, setRecipes] = useState([])
   const [search, setSearch] = useState('')
-  const [query, setQuery] = useState('basil')
+  const [query, setQuery] = useState('tomato')
   
   useEffect(() => {
     getRecipes('string')
